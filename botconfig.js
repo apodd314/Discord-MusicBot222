@@ -1,10 +1,10 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["鐵柱哥#3203", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || ">>>", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
+  Token: process.env.Token || "OTc0MTc3MjIzNjg4OTk0ODI2.Gdi3sp.r0JotLK-KNc4ZTnUTNU_A2rNwUtWF9y_S0F4lk", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
@@ -22,7 +22,7 @@ module.exports = {
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
+    name: "大便便", // The message shown
     type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
@@ -30,10 +30,10 @@ module.exports = {
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "lavalink.darrenofficial.com", //- The host name or IP of the lavalink server.
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "hisudhan", //- The password of the lavalink server.
-    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
+    host: "node02.marshalxp.xyz", //- The host name or IP of the lavalink server.
+    port: 443, // The port that lavalink is listening to. This must be a number!
+    pass: "marshal", //- The password of the lavalink server.
+    secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
   },
 
   //Please go to https://developer.spotify.com/dashboard/
